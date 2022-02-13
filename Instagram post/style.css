@@ -1,0 +1,92 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    background-color: white;
+    height: 470px;
+    width: 340px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+/* LOGOS */
+
+.logos {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logohtml {
+    padding-top: 2px;
+}
+
+.marca {
+    padding-right: 260px;
+    font-size: xx-small;
+    padding-left: 4px;
+}
+
+.HTML5 {
+    font-weight: bold;
+}
+
+/* IMAGEN  */
+
+.imagen {
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+/* menu */
+
+.opciones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.opc_der {
+    display: flex;
+    flex-direction: row;
+}
+
+.corazon {
+    padding: 3px;
+}
+
+.mensaje {
+    padding: 3px;
+}
+
+.enviar {
+    padding: 3px;
+}
+
+.guardar {
+    padding: 3px;
+}
+
+.textoinf {
+    font-size: small;
+    margin-left: 5px;
+}
+
+.copete {
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
